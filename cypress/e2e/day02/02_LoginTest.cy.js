@@ -7,7 +7,7 @@ describe('Managementonscohool',()=>{
 
         // 1 yol contains('Text')
         //cy.contains('Login').click()
-        //cy.contains('login',{matchCase:false}).click()
+        //cy.contains('login',{matchCase:false}).click() //harf duyarliligi yok
         
         
         // 2 .yol contains('Locator','Text') 
