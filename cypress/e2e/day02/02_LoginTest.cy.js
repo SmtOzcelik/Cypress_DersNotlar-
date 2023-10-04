@@ -16,6 +16,33 @@ describe('Managementonscohool',()=>{
         //cy.contains('a','Login').click() //tagi a olan ve icinde Login olan
         cy.contains('a','login',{matchCase:false}).click()
 
+        //--Dogrulama işlemleri--
+        //1) have.text 
+        cy.get('.d-grid > .fw-semibold').should('have.text','Login') // have.text de aynısı dogula
+        cy.get('.card-body > .shadow-sm').should('have.text','Login')
+        //locate edilen yerdeki metinde 'Login' varmı ? Text olmak zorunda
+
+        //2) cy.url().should()
+        cy.url().should('include','login')
+
+        //3) be.visble
+        cy.get('.card-body > .shadow-sm').should('be.visible')
+        // bu locate yeri görünüyor mu?
+
+        //4) include.text
+        cy.get('.card-body > .shadow-sm').should('include.text','Login')
+        //locade edilen yerdeki metin 'Login' içeriyor mu?j
+
+        //--Toplam Link sayısı--
+        // li ile baslayan tagı a olan 
+        cy.get('li a').should('have.length',19)
+
+        
+
+        
+
+
+
 
     
     })

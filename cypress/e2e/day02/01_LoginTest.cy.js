@@ -19,6 +19,11 @@ describe('Managementonscohool',()=>{
        cy.get('#password').type('Ab142790').should('not.be.null')
 
        cy.get('.d-grid > .fw-semibold').click()
+
+
+       //giriş yapıldığını dogrulayalım
+       cy.contains('Menu').should('have.text','Menu')
+       cy.contains('AdminSamet').should('have.text','AdminSamet')
        
 
     })
