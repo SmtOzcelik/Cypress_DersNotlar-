@@ -14,7 +14,8 @@ describe('IFrame',()=>{
             support -> e2e.js dosya icerisine 
             import 'cypress-iframe';    ekle
 
-        3) Bu işlemlerden sonra cy.frameLoaded() komutunu kullanabileceğiz    
+        3) Bu işlemlerden sonra cy.frameLoaded() ve cy.iframe()
+             komutlarını kullanabileceğiz    
         */
     
     })
