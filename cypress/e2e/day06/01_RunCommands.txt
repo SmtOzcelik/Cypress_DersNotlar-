@@ -1,0 +1,15 @@
+npx cypress run : browser açmadan bütün tesleri calıştırır.
+                  Hata alınan testlerin ekran görüntülerini screenshots klasörüne koyar
+                  Bütün testlerin video kayıtlarını video klasörüne koyar.
+
+npx cypress info: Bilgisayarda yüklü browser bilgilerini, cypress versiyonu,
+                  işletim sistenini, hafıza bilgileri gibi verileri gösterir
+
+npx cypress verify : cypress in yüklü oldugunu onaylar
+
+npx cypress run --browser chrome: chrome açmadan tüm testler çalışır
+
+npx cypress run --browser chrome --headed : chrome açarak tüm testleri çalıştırı
+
+İSTENEN KLASÖRDEKİ TÜM TESTLERİ ÇALIŞTIRMAK 
+npx cypress run --spec 'cypress/e2e/day03/'
