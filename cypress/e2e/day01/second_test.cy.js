@@ -40,10 +40,7 @@ beforeEach('Her Testten once calisacak',()=>{
     })
 
 
-    it('',()=>{
-    
-        
-    })
+   
     
 
     })
