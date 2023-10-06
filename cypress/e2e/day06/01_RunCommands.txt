@@ -13,3 +13,26 @@ npx cypress run --browser chrome --headed : chrome açarak tüm testleri çalı�
 
 İSTENEN KLASÖRDEKİ TÜM TESTLERİ ÇALIŞTIRMAK 
 npx cypress run --spec 'cypress/e2e/day03/'
+*default olarak Electron ile çalıştırır
+
+npx cypress run --spec 'cypress/e2e/day03/' --browser chrome
+*day03 tüm testleri chrome headless browser açmadan ile çalışır
+
+npx cypress run --spec 'cypress/e2e/day03/' --browser chrome --headed
+*day03 tüm testler chrome browser açarak çalıştırır
+
+TEK BİR TESTİ ÇALIŞTIRMAK İÇİN
+npx cypress run --spec npx cypress run --spec 'cypress/e2e/day02/01_LoginTest1.cy.js'
+**default olarak Electron ile çalıştırır
+
+npx cypress run --spec npx cypress run --spec 'cypress/e2e/day02/01_LoginTest1.cy.js' --browser chrome
+*day02 klasöründeki 01_LoginTest1.cy.js dosyasını chrome açmadan çalıştırır
+
+npx cypress run --spec npx cypress run --spec 'cypress/e2e/day02/01_LoginTest1.cy.js' --browser chrome --headed
+*day02 klasöründeki 01_LoginTest1.cy.js dosyasını chrome açarak çalıştırır
+
+SÜREKLİ TEST YERLERİNİ YAZMAK YERİNE package.json kayıt edelim
+package.json icinde scripts icine yazılacak
+örnek
+"day03": "npx cypress run --spec 'cypress/e2e/day03/'" 
+npm run day03   terminale yaz 
