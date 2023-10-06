@@ -34,15 +34,18 @@ describe('Login Test',()=>{
 
         cy.get('#username').type(username).should('have.value',username)
         cy.get('#password').type(password).should('not.be.null')
+
+  
         cy.get('.d-grid > .fw-semibold').click()
 
-    
+        
         
         cy.contains('Menu').should('not.be.visible')
         // Menu nun gözükmediğini dogruladik
 
         cy.get('.d-grid > .fw-semibold').should('be.visible')
         // Loginin gözüktügünü dogruladık
+
        
     })
     

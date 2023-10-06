@@ -1,0 +1,20 @@
+/// <reference types="cypress" />
+
+describe('PayLinn Bank',()=>{
+
+it('Paylinn Bank Login Test',()=>{
+
+    cy.visit('https://www.paylinn.com/')
+
+})
+
+it('',()=>{
+
+    
+})
+
+
+
+
+
+})
