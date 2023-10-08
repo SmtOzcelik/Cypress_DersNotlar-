@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "day03": "npx cypress run --spec 'cypress/e2e/day03/'"
+    "day03": "npx cypress run --spec 'cypress/e2e/day03/'",
+    
+    "test-dashboard":"npx cypress run --record --key 0d5bc410-2096-4580-a95a-8ef6befd66db",
+    "dashboard_day03":"npx cypress run --spec 'CYPRESSDERSLERI/e2e/day03' --record --key 0d5bc410-2096-4580-a95a-8ef6befd66db"
   },
   "author": "samet",
   "license": "ISC",

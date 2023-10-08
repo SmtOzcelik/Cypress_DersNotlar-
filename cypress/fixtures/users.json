@@ -1,0 +1,118 @@
+
+    [
+        {
+            "userId": 1,
+            "username": "AdminSamet",
+            "name": "Lilli",
+            "surname": "Gun",
+            "birthDay": "2001-02-01", 
+            "adress":{
+                "street":"cevre yolu",
+                "mahalle":"demet"
+
+            },
+            "ssn": "233-33-4545",
+            "birthPlace": "Adana",
+            "phoneNumber": "112 334 4456",
+            "gender": "FEMALE"
+        },
+        {
+            "userId": 2,
+            "username": "DeanAhmetSami",
+            "name": "AhmetSami",
+            "surname": "Gun",
+            "birthDay": "2000-06-08",
+            "adress":{
+                "street":"cevre yolu",
+                "mahalle":"demet"
+
+            },
+            "ssn": "443-44-6765",
+            "birthPlace": "Ankara",
+            "phoneNumber": "232 335 5667",
+            "gender": "MALE"
+        },
+        {
+            "userId": 3,
+            "username": "brendon.moen",
+            "name": "Mehtap",
+            "surname": "Cakiroglu",
+            "birthDay": "1960-02-02",
+            "adress":{
+                "street":"cevre yolu",
+                "mahalle":"demet"
+
+            },
+            "ssn": "168-51-0375",
+            "birthPlace": "Ankara",
+            "phoneNumber": "197-751-2247",
+            "gender": "FEMALE"
+        },
+        {
+            "userId": 4,
+            "username": "DeanTeam02",
+            "name": "DeanTeam02",
+            "surname": "Team02",
+            "birthDay": "1991-01-01",
+            "ssn": "369-87-4120",
+            "birthPlace": "Deutschlandd",
+            "phoneNumber": "571-571-5710",
+            "gender": "FEMALE"
+        },
+        {
+            "userId": 5,
+            "username": "Deanteam03",
+            "name": "Techpro",
+            "surname": "Edu",
+            "birthDay": "1980-02-01",
+            "ssn": "197-11-8899",
+            "birthPlace": "Delawre",
+            "phoneNumber": "132-988-1683",
+            "gender": "MALE"
+        },
+        {
+            "userId": 6,
+            "username": "DeanTeam11",
+            "name": "Dean Team11",
+            "surname": "Team11",
+            "birthDay": "2000-04-23",
+            "ssn": "179-17-9777",
+            "birthPlace": "Türkiye",
+            "phoneNumber": "203-207-2971",
+            "gender": "MALE"
+        },
+        {
+            "userId": 7,
+            "username": "sinem",
+            "name": "sinem hacer",
+            "surname": "hacer sinem",
+            "birthDay": "1998-11-11",
+            "ssn": "117-77-8554",
+            "birthPlace": "sinemm",
+            "phoneNumber": "555-555-8888",
+            "gender": "MALE"
+        },
+        {
+            "userId": 8,
+            "username": "Dean Alperen",
+            "name": "Alperen",
+            "surname": "Sengun",
+            "birthDay": "1990-06-11",
+            "ssn": "444-32-4498",
+            "birthPlace": "Giresun",
+            "phoneNumber": "053-240-9899",
+            "gender": "MALE"
+        },
+        {
+            "userId": 9,
+            "username": "Team10Dean",
+            "name": "Team10",
+            "surname": "Team10Dean",
+            "birthDay": "2023-08-16",
+            "ssn": "432-62-1492",
+            "birthPlace": "Kocaeli",
+            "phoneNumber": "749-231-3624",
+            "gender": "MALE"
+        }
+        
+    ]    

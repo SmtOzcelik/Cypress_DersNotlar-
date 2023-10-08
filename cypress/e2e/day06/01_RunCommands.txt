@@ -36,3 +36,11 @@ package.json icinde scripts icine yazılacak
 örnek
 "day03": "npx cypress run --spec 'cypress/e2e/day03/'" 
 npm run day03   terminale yaz 
+
+// tum tesleri calıştırır rapor almak 
+"test-dashboard":"npx cypress run --record --key 0d5bc410-2096-4580-a95a-8ef6befd66db",
+npm run test-dashboard  --> bütün testleri çalıştırıp dashboarda gönderecek
+
+//sadece day03 çalışır rapor almak
+"dashboard_day03":"npx cypress run --spec 'CypressDersleri/e2e/day03' --record --key 0d5bc410-2096-4580-a95a-8ef6befd66db"
+npm run dashboard_day03 --> sadece day03 çalıştırıp dashboarda gönderecek  
