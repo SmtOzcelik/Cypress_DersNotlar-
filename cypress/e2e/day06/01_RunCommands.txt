@@ -15,11 +15,12 @@ npx cypress run --browser chrome --headed : chrome açarak tüm testleri çalı�
 npx cypress run --spec 'cypress/e2e/day03/'
 *default olarak Electron ile çalıştırır
 
-npx cypress run --spec 'cypress/e2e/day03/' --browser chrome
-*day03 tüm testleri chrome headless browser açmadan ile çalışır
+npx cypress run --spec 'cypress/e2e/day01/' --browser chrome
+*day01 tüm testleri chrome headless browser açmadan ile çalışır
 
-npx cypress run --spec 'cypress/e2e/day03/' --browser chrome --headed
-*day03 tüm testler chrome browser açarak çalıştırır
+npx cypress run --spec 'cypress/e2e/day01/' --browser chrome --headed
+*day01 tüm testler chrome browser açarak çalıştırır
+"mycode":"npx cypress run --spec 'cypress/e2e/day01/' --browser chrome --headed"
 
 TEK BİR TESTİ ÇALIŞTIRMAK İÇİN
 npx cypress run --spec npx cypress run --spec 'cypress/e2e/day02/01_LoginTest1.cy.js'
@@ -44,3 +45,10 @@ npm run test-dashboard  --> bütün testleri çalıştırıp dashboarda göndere
 //sadece day03 çalışır rapor almak
 "dashboard_day03":"npx cypress run --spec 'CypressDersleri/e2e/day03' --record --key 0d5bc410-2096-4580-a95a-8ef6befd66db"
 npm run dashboard_day03 --> sadece day03 çalıştırıp dashboarda gönderecek  
+
+
+BİRDEN FAZLA BROWSERDA TESTLERİ CALIŞTIRMAK İCİN
+1) 2 tane terminal açıyoruz
+2) 1. terminale npx cypress run --spec 'cypress/e2e/day01/' --browser chrome --headed
+   2. terminale npx cypress run --spec 'cypress/e2e/day01/' --browser firefox --headed
+3)2 terminalde de entera bas   

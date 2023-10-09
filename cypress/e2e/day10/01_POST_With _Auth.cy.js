@@ -14,15 +14,17 @@ describe('POST with Auth',()=>{
             body:{
                 "firstname": "Samet",
                 "lastname": "Tsl",
-                "totalprice": 111,
+                "totalprice": 250,
                 "depositpaid": true,
                 "bookingdates": {
                     "checkin": "2014-10-10",
                     "checkout": "2014-11-10"
                 },
-                "additionalneeds": "Breakfast",
-                "token": "abc123"
-            }
+                "additionalneeds": "Breakfast"
+            },
+
+            "token": "abc123"
+
         }).then((response)=>{
             console.log(response)
 
