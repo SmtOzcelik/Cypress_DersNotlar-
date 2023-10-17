@@ -5,7 +5,6 @@ describe('US01:Aday öğrenciler sisteme kayıt olabilmelidir',()=>{
 
     it('TC01 Pozitif API test',()=>{
 
-       
         const urlPost ='https://managementonschools.com/app/guestUser/register'
         
         // phoneNumber,ssn,username unique olması icin faker kullandık
