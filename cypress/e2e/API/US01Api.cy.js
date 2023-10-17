@@ -54,7 +54,8 @@ describe('US01:Aday öğrenciler sisteme kayıt olabilmelidir',()=>{
         expect(response.body.object.ssn).to.equal(fakerssn)
         expect(response.body.object.username).to.equal(fakerUsername)
         
-    })  })
+    }) 
+  })
     
     
     
